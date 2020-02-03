@@ -13,6 +13,20 @@ And the project will be deployed. The default port is 8080 but if you want anoth
 ``` sh
 $ http-server -p anotherPort
 ```
+To active the eslinter mode in Visual Studio Code.
+1. Go to marketplace and download eslint.
+2. In terminal write the follow command
+``` sh
+$ npm i -g eslint
+```
+
+
+indent: ["warn", 2, { SwitchCase: 1 }],
+        "linebreak-style": ["error", "unix"],
+        quotes: ["error", "double"],
+        semi: ["error", "always"],
+        "no-console": 0
+        
 ## Author: Valerie Parra Cortés
 You can see the web page in the following link:
 ![Author's web page](vparrac.github.io/)
