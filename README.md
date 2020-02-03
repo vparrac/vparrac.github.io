@@ -1,4 +1,4 @@
-# Página Web de Valerie Parra Cortés
+# Valerie Parra Cortés' web page
 
 
 ## Purpose
