@@ -1,0 +1,28 @@
+{
+  "name": "vparrac.github.io",
+  "version": "1.0.0",
+  "description": "Está página web muestra un pequeño recorrido de lo que ha sido mi paso por la universidad. \r Mis proyectos, lo que he aprendido y los planes que tengo a futuro.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vparrac/vparrac.github.io.git"
+  },
+  "keywords": [
+    "web",
+    "development",
+    "chemical",
+    "enginering"
+  ],
+  "author": "Valerie Parra Cortés",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vparrac/vparrac.github.io/issues"
+  },
+  "homepage": "https://github.com/vparrac/vparrac.github.io#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}

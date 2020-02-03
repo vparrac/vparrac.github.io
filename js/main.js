@@ -1,10 +1,12 @@
+
 /**
  * Método que redirije a la página en inglés
  */
 function btnIngles() {
   setTimeout(function() {
     location.href = "/en.html";
-  }, 500);
+  }, 500)
+  ;
 }
 /**
  * Método que redirije a la página en español
@@ -23,4 +25,4 @@ function listeners(){
     .getElementById("btnEspanol")
     .addEventListener("click", btnEspanol);
 }
-window.addEventListener('load', listeners, false);
+window.addEventListener("load", listeners, false);
