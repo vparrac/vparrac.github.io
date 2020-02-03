@@ -18,6 +18,8 @@ function darkMode() {
   }
 }
 
-window.onload(
-  this.document.getElementById("cambioTema").addEventListener("click", darkMode)
-);
+function listeners(){
+  this.document.getElementById("cambioTema").addEventListener("click", darkMode);
+}
+
+window.addEventListener('load', listeners, false);

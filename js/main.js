@@ -15,12 +15,12 @@ function btnEspanol() {
   }, 500);
 }
 
-window.onload(
+function listeners(){
   this.document
     .getElementById("btnIngles")
-    .addEventListener("click", btnIngles),
+    .addEventListener("click", btnIngles);
   this.document
     .getElementById("btnEspanol")
-    .addEventListener("click", btnEspanol)
-);
- 
+    .addEventListener("click", btnEspanol);
+}
+window.addEventListener('load', listeners, false);
