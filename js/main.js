@@ -20,13 +20,13 @@ $("button.botonInicio.es").click(function() {
  */
 
 $("#cambioTema").click(function() {
-  if (document.body.style.backgroundColor == "black") {
-    document.body.style.backgroundColor = "white";
-    document.body.style.color = "black";
-    document.getElementById("cambioTema").innerHTML = "Modo noche";
+  if (this.document.body.style.backgroundColor == "black") {
+    this.document.body.style.backgroundColor = "white";
+    this.document.body.style.color = "black";
+    this.document.getElementById("cambioTema").innerHTML = "Modo noche";
   } else {
-    document.body.style.backgroundColor = "black";
-    document.body.style.color = "white";
-    document.getElementById("cambioTema").innerHTML = "Modo día";
+    this.document.body.style.backgroundColor = "black";
+    this.document.body.style.color = "white";
+    this.document.getElementById("cambioTema").innerHTML = "Modo día";
   }
 });
