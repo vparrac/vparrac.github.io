@@ -21,12 +21,7 @@ function darkMode() { if (document.body.style.backgroundColor == "black") {
 function listeners() {
   this.document
     .getElementById("cambioTema")
-    .addEventListener("click", darkMode);
-  if (location.pathname === "/en.html") {
-    document.getElementById("cambioTema").innerHTML = "Light mode";
-  } else {
-    document.getElementById("cambioTema").innerHTML = "Modo día";
-  }
+    .addEventListener("click", darkMode); 
 }
 
 window.addEventListener("load", listeners, false);
