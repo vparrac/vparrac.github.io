@@ -23,3 +23,4 @@ window.onload(
     .getElementById("btnEspanol")
     .addEventListener("click", btnEspanol)
 );
+ 
