@@ -45,4 +45,8 @@ The following screenshot is a little part of the whole page.
 
 ## Slides
 The slides can be found in the following link
-![Author's web page](https://drive.google.com/file/d/1JjeYw4QXk6OwVc-ouyi58-rPtm7khaU-/view?usp=sharing)
+![Slides](https://drive.google.com/file/d/1JjeYw4QXk6OwVc-ouyi58-rPtm7khaU-/view?usp=sharing)
+
+## Video
+![The introduction of this page](https://www.youtube.com/watch?v=fM6-vXguexI&feature=youtu.be)
+ 
