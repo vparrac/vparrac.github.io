@@ -20,6 +20,12 @@ To active the eslinter mode in Visual Studio Code.
 $ npm i -g eslint
 ```
 
+Answer the questions how is showed in the next picture
+
+![eslint](https://user-images.githubusercontent.com/32238112/73627890-6eca4600-461c-11ea-8012-cdb0943e6bf3.PNG)
+
+Go to js code and check out the errors.
+
 
 indent: ["warn", 2, { SwitchCase: 1 }],
         "linebreak-style": ["error", "unix"],
