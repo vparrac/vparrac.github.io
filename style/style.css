@@ -9,6 +9,13 @@
 }
 
 
+.imagenPrincipal {   
+    width: 420px;
+    height: auto;  
+  
+}
+
+
 
 .proyecto{
     color: #6b2be2;
@@ -184,7 +191,7 @@ h6{
   }
 
   
-.inicio .iniciales {
+.iniciales {
     color: #ededed;
     line-height: 160px;
     margin: auto;
@@ -196,8 +203,7 @@ h6{
     font-size: 100px;
     border-bottom: 2px solid #ededed;
     z-index: -1;  
-    font-family: 'Pacifico', cursive;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Noto Serif', serif;
 }
 
 .btn-container {
