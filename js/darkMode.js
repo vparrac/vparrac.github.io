@@ -18,4 +18,6 @@ function darkMode() {
   }
 }
 
-this.document.getElementById("cambioTema").addEventListener("click", darkMode);
+window.onload(
+  this.document.getElementById("cambioTema").addEventListener("click", darkMode)
+);

@@ -15,5 +15,11 @@ function btnEspanol() {
   }, 500);
 }
 
-this.document.getElementById("btnIngles").addEventListener("click", btnIngles);
-this.document.getElementById("btnEspanol").addEventListener("click", btnEspanol);
+window.onload(
+  this.document
+    .getElementById("btnIngles")
+    .addEventListener("click", btnIngles),
+  this.document
+    .getElementById("btnEspanol")
+    .addEventListener("click", btnEspanol)
+);
