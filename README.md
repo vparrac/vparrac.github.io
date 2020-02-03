@@ -35,7 +35,7 @@ indent: ["warn", 2, { SwitchCase: 1 }],
         
 ## Author: Valerie Parra Cortés
 You can see the web page in the following link:
-![Author's web page](vparrac.github.io/)
+![Author's web page](vparrac.github.io)
 
 ## Licence: MIT Licence
 ## Screenshot of web page
