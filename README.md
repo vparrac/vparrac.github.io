@@ -19,3 +19,6 @@ You can see the web page in the following link:
 
 ## Licence: MIT Licence
 ## Screenshot of web page
+The following screenshot is a little part of the whole page.
+
+![Captura](https://user-images.githubusercontent.com/32238112/73623873-944f5380-460c-11ea-8ffd-541d1e601665.PNG)
