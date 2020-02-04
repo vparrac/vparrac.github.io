@@ -15,6 +15,26 @@
   
 }
 
+/* 
+Mira, aquí, para que no te queden los títulos tan pegados 
+al borde, te sugiero agregar estas líneas al css.
+
+En ellas estoy diciendo que todo título hijo inmediato de un row
+tendrá una pequeñita margen para que no quede tan pegado al
+borde de la ventana. 
+
+
+Nota:
+Me gustaría modificarte cosas en cuanto a colores pero
+no sé si estoy ya te gustan así algunos colores, así
+que mejor no los modifico. 
+*/
+.row h2,
+.row h3,
+.row h4{
+    padding-left: 10px;
+}
+
 
 
 .proyecto{
