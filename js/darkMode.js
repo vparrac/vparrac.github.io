@@ -1,4 +1,10 @@
-function darkMode() { if (document.body.style.backgroundColor == "black") {
+/* 
+Nuevamente, te recomiendo revisar mejor cómo llamas las funciones
+porque de resto está perfecto.  
+*/
+
+function changeMainColor() {
+ if (document.body.style.backgroundColor == "black") {
   document.body.style.backgroundColor = "white";
   document.body.style.color = "black";
   if (location.pathname === "/en.html") {
@@ -21,7 +27,7 @@ function darkMode() { if (document.body.style.backgroundColor == "black") {
 function listeners() {
   this.document
     .getElementById("cambioTema")
-    .addEventListener("click", darkMode); 
+    .addEventListener("click", changeMainColor); 
 }
 
 window.addEventListener("load", listeners, false);
