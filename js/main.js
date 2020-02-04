@@ -1,28 +1,20 @@
+//Quizás intentaría mejora este cod para que se entienda mejor. Así:
 
 /**
- * Método que redirije a la página en inglés
+ * Método que redirije a la página dado un idioma
  */
-function btnIngles() {
+function sender(lang = "es") {
   setTimeout(function() {
-    location.href = "/en.html";
-  }, 500)
-  ;
-}
-/**
- * Método que redirije a la página en español
- */
-function btnEspanol() {
-  setTimeout(function() {
-    location.href = "/es.html";
+    location.href = `/${lang}.html`;
   }, 500);
 }
 
 function listeners(){
   this.document
     .getElementById("btnIngles")
-    .addEventListener("click", btnIngles);
+    .addEventListener("click", () => sender("en"));
   this.document
     .getElementById("btnEspanol")
-    .addEventListener("click", btnEspanol);
+    .addEventListener("click", () => sender("es"));
 }
 window.addEventListener("load", listeners, false);
